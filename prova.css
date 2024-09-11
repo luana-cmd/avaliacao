@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*tamanho*/
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*fonte*/
+}
+
+
+
+
+
+header {
+    /*estilizando a lista não ordenada*/
+    background-color: #d0dccb;
+    /*cor */
+    padding: 40px;
+    /*tamaho*/
+    display: flex;
+    /* dxa a sessão flex */
+    justify-content: end;
+    /* jutifica o conteúdo */
+}
+
+header nav ul {
+    /* estilizando a lista não ordenada */
+    display: flex;
+    /*clc os ngc lado a lado*/
+}
+
+header nav ul li {
+    /* estilizando a lista não ordenada */
+    margin-left: 20px;
+    /* espaçamento entre as listas */
+}
+
+header nav ul li a {
+    /* estilizand a lista nçao ordenada */
+    color: white;
+    /*cor da letra*/
+    text-decoration: none;
+    /*tira o sublinhado*/
+    font-size: 15px;
+    /*tamanho da letra*/
+    margin-left: 15px;
+    /*espaçamento entre as lista*/
+}
+
+
+header li a:hover {
+    /*muda o ngc qndo passa o mouser*/
+    color: #b3c5ba;
+    /*cor p qndo passar o mouse*/
+    transition: 1s;
+    /*transição*/
+}
+
+
+
+
+
+.sessão-1 {
+    /* estilizando a primeira sessão */
+    padding: 100px;
+    /*tamanho sa sessão*/
+    background-color: #88c3b5;
+    /*cor da sessão*/
+}
+
+.sessão-1 h1 {
+    /*título da primeira sessão*/
+    color: rgb(51, 45, 45);
+    /*cor da letra*/
+    font-size: 40px;
+    /*tamanho da letra*/
+    font-weight: 700;
+    /*dxa tipo em negrito*/
+}
+
+.sessão-1 p {
+    /* estilizando o parágrafo */
+    margin-top: 10px;
+    /*espaço de cima*/
+    margin-bottom: 10px;
+    /*espaço de cima */
+    font-size: 15px;
+    /*tamanho da letra*/
+}
+
+
+.sessão-1 button {
+    /* estilizando o botão */
+    width: 250px;
+    /*largura do botão*/
+    height: 35px;
+    /*altura do botão*/
+    border-radius: 20px;
+    /*preenchimento da borda*/
+    border-color: azure;
+    /*cor do botão*/
+    margin: 20px;
+}
+
+
+.sessão-1 button:hover {
+    /* muda os ngc qndo o mouser passa */
+    color: white;
+    /*cor da letra*/
+    transition: 1s;
+    /*tempo de transição*/
+    background-color: black;
+    /*alterando a cor de fundo*/
+    border-color: white;
+    /*cor da letra ao passar o mouse*/
+}
