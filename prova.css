@@ -2,7 +2,7 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 0px; 
     list-style: none;
     font-family: Embed;
 }
@@ -20,6 +20,7 @@ header {
     justify-content: end;
     /* jutifica o conteúdo */
     align-items: center;
+    /* alinha os itens */
 }
 
 header div i {
@@ -89,19 +90,19 @@ header li a:hover {
     margin-top: 10px;
     /*espaço de cima*/
     margin-bottom: 10px;
-    /*espaço de cima */
+    /*espaço de baixo */
     font-size: 15px;
     /*tamanho da letra*/
 }
 
 
 .sessão-1 div img {
+    /* estilizando a imagem */
     width: 300px;
     /*largura da imagem*/
     margin-top: 60px;
     height: auto;
     /*altura automatica da imagem*/
-    margin-left: 20px;
 }
 
 
@@ -138,7 +139,7 @@ header li a:hover {
 
 
 .sessão-2 {
-    padding: 100px;
+    padding: 200px;
     /*tamanho da sessão*/
     background-color: #243a69;
     /*cor da sessão*/
@@ -146,6 +147,7 @@ header li a:hover {
 
 
 .sessão-2 p {
+    /* estilizando o paragrafo */
     margin-top: 10px;
     /*espaço de cima*/
     margin-bottom: 10px;
@@ -185,48 +187,117 @@ header li a:hover {
 }
 
 
+#sessão-3 {
+    padding: 120px;
+    /*tamanho da sessão*/
+    background-color: #243a69;
+    /*cor da sessão*/
+}
+
+
 .div-1 div {
-    width: 180px;
-    height: 300px;
-    background-color: #f9f9f1;
+    width: 250px;
+    height: 350px;
 }
 
 .div-1 {
     display: flex;
     justify-content: space-evenly;
-    gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 
 .div-1 .div-01 {
-    background-image: url();
+    background-image: url(imagens/vacina-de-filhote-de-cachorro\ \(1\).jpg);
     background-size: cover;
     background-position: center;
 }
 
 
 .div-1 .div-02 {
-    background-image: url();
+    background-image: url(imagens/clinica-veterinaria-e-pet-shop.jpg);
     background-size: cover;
     background-position: center;
 }
 
 
 .div-1 .div-03 {
-    background-image: url();
+    background-image: url(imagens/petshop_venda_animais.jpg);
     background-size: cover;
     background-position: center;
 }
 
 
 
+.sessão-5 {
+    /* estilizando a primeira sessão */
+    padding: 100px;
+    /*tamanho sa sessão*/
+    background-color: #5b88a5;
+    /*cor da sessão*/
+}
+
+
+.sessão-5 h1 {
+    /*título da primeira sessão*/
+    color: rgb(51, 45, 45);
+    /*cor da letra*/
+    font-size: 40px;
+    /*tamanho da letra*/
+    font-weight: 700;
+    /*dxa tipo em negrito*/
+}
+
+
+.sessão-5 p {
+    /* estilizando o paragrafo */
+    margin-top: 10px;
+    /*espaço de cima*/
+    margin-bottom: 10px;
+    /*espaço de cima */
+    font-size: 18px;
+    /*tamanho da letra*/
+}
+
+
+.sessão-5 button {
+    /* estilizando o botão */
+    width: 250px;
+    /*largura do botão*/
+    height: 35px;
+    /*altura do botão*/
+    border-radius: 20px;
+    /*preenchimento da borda*/
+    border-color: azure;
+    /*cor do botão*/
+    margin: 20px;
+}
+
+
+.sessão-5 button:hover {
+    /* muda os ngc qndo o mouser passa */
+    color: white;
+    /*cor da letra*/
+    transition: 1s;
+    /*tempo de transição*/
+    background-color: rgb(108, 140, 167);
+    /*alterando a cor de fundo*/
+    border-color: white;
+    /*cor da letra ao passar o mouse*/
+}
+
+
 
 
 footer {
+    /* estilizando o rodapé */
     padding: 50px;
+    /* tamanho da sessão */
     background-color: #d4cdc5;
+    /* cor de fundo */
     text-align: center;
+    /* alinhando os itens */
 }
 
 footer ul li a {
